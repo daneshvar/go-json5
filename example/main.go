@@ -13,8 +13,11 @@ func main() {
 		dec := json5.NewDecoder(f)
 
 		var s interface{} // or struct
-		dec.Decode(&s)
-		fmt.Println(s)
+		if e := dec.Decode(&s); e == nil {
+			fmt.Println(s)
+		} else {
+			fmt.Println(e)
+		}
 	} else {
 		fmt.Println(e)
 	}
