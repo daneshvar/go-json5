@@ -1,0 +1,14 @@
+[
+  {
+    name:"Hussein",
+    family:"Daneshvar",
+    skills: ["C++", "Go", "JavaScript"],
+    projects: [{name: "Spring", date: "2015"}, {name: "Hafez", date: "2018"}],
+  },
+  {
+    name:"Mehrdad",
+    family:"Nourozi",
+    skills: ["C#", "JavaScript"],
+    projects: [{name: "Bandar", date: "2005"}, {name: "NewSite", date: "2018"}],
+  }
+],

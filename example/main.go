@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+	"os"
+
+	"github.com/daneshvar/json5"
+)
+
+func main() {
+	if f, e := os.Open("./example.json5"); e == nil {
+		defer f.Close()
+		dec := json5.NewDecoder(f)
+
+		var s interface{} // or struct
+		dec.Decode(&s)
+		fmt.Println(s)
+	} else {
+		fmt.Println(e)
+	}
+}
