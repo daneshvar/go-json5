@@ -1,4 +1,4 @@
-JSON5 implements encoding and decoding for Go fork from [JSON5](https://github.com/aseemk/json5)
+JSON5 implements encoding and decoding for Go fork from [JSON5](https://github.com/yosuke-furukawa/json5)
 
 # go get
 ```
@@ -12,7 +12,7 @@ require (
 )
 ```
 
-# [TODO](https://github.com/aseemk/json5)
+# [TODO](https://github.com/yosuke-furukawa/json5)
 - block comment
 - multiline string
 - hexadecimal notation
