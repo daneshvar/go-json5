@@ -1,4 +1,4 @@
-JSON5 implements encoding and decoding for Go fork from [JSON5](https://github.com/yosuke-furukawa/json5)
+JSON5 implements encoding and decoding for Go forked from [yosuke-furukawa/json5](https://github.com/yosuke-furukawa/json5)
 
 # Go Modules
 ```
