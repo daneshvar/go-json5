@@ -40,7 +40,7 @@ func main() {
 // JSON5 can write comment in your json
 [
   {
-    name: "Hussein",
+    name: "Hossein",
     family: "Daneshvar",
     skills: ["C++", "Go", "JavaScript",],
     projects: [{name: "Spring", date: "2015",}, {name: "Hafez", date: "2018",}],
