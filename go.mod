@@ -1,1 +1,1 @@
-module github.com/daneshvar/json5
+module github.com/daneshvar/go-json5
