@@ -3,7 +3,7 @@ JSON5 implements encoding and decoding for Go forked from [yosuke-furukawa/json5
 # Go Modules
 ```
 require (
-  github.com/daneshvar/json5 v0.1.3
+  github.com/daneshvar/go-json5 v0.1.3
 )
 ```
 
@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/daneshvar/json5"
+	"github.com/daneshvar/go-json5"
 )
 
 func main() {
